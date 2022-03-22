@@ -21,7 +21,8 @@ export default new VueRouter({
             path:"/home",
             component:Home,
             meta:{
-                show:true
+                show:true,
+                title:"首页"
             }
         },
         {
@@ -30,7 +31,8 @@ export default new VueRouter({
             path:"/search/:searchText?",
             component:Search,
             meta:{
-                show:true
+                show:true,
+                title:"搜索🔍"
             },
             // 路由组件传参
             // 1.布尔值写法，只能是params
@@ -46,20 +48,22 @@ export default new VueRouter({
             path:"/login",
             component:Login,
             meta:{
-                show:false
+                show:false,
+                title:"登录"
             }
         },
         {
             path:"/register",
             component:Register,
             meta:{
-                show:false
+                show:false,
+                title:"注册"
             }
         },
         // 重定向：当访问/ 立马访问首页
         {
             path:'*',
-            redirect:"/home"
+            redirect:"/home",
         }
     ]
 
