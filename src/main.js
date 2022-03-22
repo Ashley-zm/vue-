@@ -1,5 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
+import '@/assets/icon/iconfont.css'
+// symbol 引用
+import '@/assets/iconfont/iconfont.js'
+import '@/assets/iconfont/iconfont.css'
+//设置全局icon样式
+import '@/assets/iconGloble.css'
+
+import '@/assets/icons'
 
 Vue.config.productionTip = false
 // 引入路由
