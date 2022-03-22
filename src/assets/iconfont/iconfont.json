@@ -1,0 +1,30 @@
+{
+  "id": "3262995",
+  "name": "vite",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5074209",
+      "name": "购物袋",
+      "font_class": "gouwuche-",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "1101",
+      "name": "植物",
+      "font_class": "zhiwu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "27804866",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "100ab",
+      "unicode_decimal": 65707
+    }
+  ]
+}
