@@ -5,7 +5,7 @@
     <div class="top">
       <div class="container">
         <div class="loginList">
-          <p>尚品汇欢迎您！</p>
+          <p>畅购物欢迎您！</p>
           <p>
             <span>请</span>
             <router-link to="/login">登录</router-link>
@@ -23,10 +23,10 @@
         <div class="typeList">
           <a href="###">我的订单</a>
           <a href="###">我的购物车</a>
-          <a href="###">我的尚品汇</a>
-          <a href="###">尚品汇会员</a>
+          <a href="###">我的畅购物</a>
+          <a href="###">畅购物会员</a>
           <a href="###">企业采购</a>
-          <a href="###">关注尚品汇</a>
+          <a href="###">关注畅购物</a>
           <a href="###">合作招商</a>
           <a href="###">商家后台</a>
         </div>
@@ -39,22 +39,15 @@
           class="logo"
           to="/home"
         >
-          <img
-            src="./images/logo.png"
-            alt=""
-          >
+          <svg-icon
+            style-object=""
+            icon-class="logo"
+          ></svg-icon>
+          <!-- <svg-icon icon-class="logo"></svg-icon> -->
+          <div class="title">畅购物</div>
+          <!-- <span class="title">畅购物</span> -->
         </router-link>
-        <!-- <a
-          class="logo"
-          title="尚品汇"
-          href="###"
-          target="_blank"
-        >
-          <img
-            src="./images/logo.png"
-            alt=""
-          >
-        </a> -->
+
       </h1>
       <div class="searchArea">
         <form
@@ -165,11 +158,13 @@ export default {
 
     .logoArea {
       float: left;
+      position: absolute;
 
       .logo {
-        img {
-          width: 175px;
-          margin: 25px 45px;
+        .title {
+          position: relative;
+          top: -40px;
+          left: 55px;
         }
       }
     }
@@ -186,7 +181,8 @@ export default {
           width: 490px;
           height: 32px;
           padding: 0px 4px;
-          border: 2px solid #ea4a36;
+          border: 2px solid #427dff;
+          // border: 2px solid #ea4a36;
           float: left;
 
           &:focus {
@@ -197,7 +193,7 @@ export default {
         button {
           height: 32px;
           width: 68px;
-          background-color: #ea4a36;
+          background-color: #427dff;
           border: none;
           color: #fff;
           float: left;

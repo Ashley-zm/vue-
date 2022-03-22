@@ -56,7 +56,11 @@
         </div>
         <div class="footerItem">
           <h4>帮助中心</h4>
-          <img src="./images/foot-wx.png">
+          <svg-icon
+            icon-class="ma"
+            :style-object="styleObject"
+          ></svg-icon>
+          <!-- <img src="./images/foot-wx.png"> -->
         </div>
       </div>
       <div class="copyright">
@@ -102,11 +106,14 @@ export default {
   name: '',
   data () {
     return {
-
+      styleObject: {
+        width: '6em',
+        height: '6em',
+        fill: '',
+      }
     };
   },
   created () {
-
   },
   mounted () {
 
