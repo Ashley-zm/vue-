@@ -34,6 +34,9 @@ ul, ol { list-style: none; }
 
 /* 重置文本格式元素 */
 a { text-decoration: none; color: #666;}
+.router-link-active{
+    text-decoration: none;
+    }
 
 
 /* 重置表单元素 */

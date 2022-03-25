@@ -13,11 +13,6 @@
               to="/register"
               class="register"
             >免费注册</router-link>
-            <!-- <a href="###">登录</a> -->
-            <!-- <a
-              href="###"
-              class="register"
-            >免费注册</a> -->
           </p>
         </div>
         <div class="typeList">
@@ -43,8 +38,7 @@
             style-object=""
             icon-class="logo"
           ></svg-icon>
-          <!-- <svg-icon icon-class="logo"></svg-icon> -->
-          <div class="title">畅购物</div>
+          <div class="title"><span>畅购物</span> </div>
           <!-- <span class="title">畅购物</span> -->
         </router-link>
 
@@ -165,6 +159,8 @@ export default {
           position: relative;
           top: -40px;
           left: 55px;
+          color: #427dff;
+          font-size: larger;
         }
       }
     }

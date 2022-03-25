@@ -10,6 +10,10 @@ import '@/assets/icon/iconfont.css'
 //svg
 import '@/assets/icons'
 
+//三级联动组件
+import TypeNav from '@/pages/Home/TypeNav'
+Vue.component(TypeNav.name,TypeNav)
+
 Vue.config.productionTip = false
 // 引入路由
 import router from './router'
